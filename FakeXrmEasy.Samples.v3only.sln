@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31911.196
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174 d17.12
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9E5C97FF-1D71-4332-B383-2E2810D9FBE8}"
 EndProject
@@ -23,13 +23,6 @@ EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FakeXrmEasy.Samples.Tests.Shared", "tests\FakeXrmEasy.Samples.Tests.Shared\FakeXrmEasy.Samples.Tests.Shared.shproj", "{4391192A-FC47-41E7-8F85-CA269988D05A}"
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		src\DataverseEntities\DataverseEntities.Shared\DataverseEntities.Shared.projitems*{363930ff-0294-43d8-89b6-fc7592e96287}*SharedItemsImports = 13
-		tests\FakeXrmEasy.Samples.Tests.Shared\FakeXrmEasy.Samples.Tests.Shared.projitems*{4391192a-fc47-41e7-8f85-ca269988d05a}*SharedItemsImports = 13
-		src\shared\FakeXrmEasy.Samples.Plugins.Shared\FakeXrmEasy.Samples.Plugins.Shared.projitems*{56db6983-334b-4755-89df-8e538889a196}*SharedItemsImports = 13
-		src\DataverseEntities\DataverseEntities.Shared\DataverseEntities.Shared.projitems*{7e06f5f3-536d-459c-8321-2ad503886526}*SharedItemsImports = 5
-		src\shared\FakeXrmEasy.Samples.Plugins.Shared\FakeXrmEasy.Samples.Plugins.Shared.projitems*{dda486dc-4e24-4c0d-a99e-af4643b47cfb}*SharedItemsImports = 5
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
@@ -76,5 +69,13 @@ Global
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A9D257C-CACF-49FF-826C-F28A2940F212}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\DataverseEntities\DataverseEntities.Shared\DataverseEntities.Shared.projitems*{363930ff-0294-43d8-89b6-fc7592e96287}*SharedItemsImports = 13
+		tests\FakeXrmEasy.Samples.Tests.Shared\FakeXrmEasy.Samples.Tests.Shared.projitems*{4391192a-fc47-41e7-8f85-ca269988d05a}*SharedItemsImports = 13
+		src\shared\FakeXrmEasy.Samples.Plugins.Shared\FakeXrmEasy.Samples.Plugins.Shared.projitems*{56db6983-334b-4755-89df-8e538889a196}*SharedItemsImports = 13
+		src\DataverseEntities\DataverseEntities.Shared\DataverseEntities.Shared.projitems*{7e06f5f3-536d-459c-8321-2ad503886526}*SharedItemsImports = 5
+		src\shared\FakeXrmEasy.Samples.Plugins.Shared\FakeXrmEasy.Samples.Plugins.Shared.projitems*{dda486dc-4e24-4c0d-a99e-af4643b47cfb}*SharedItemsImports = 5
+		tests\FakeXrmEasy.Samples.Tests.Shared\FakeXrmEasy.Samples.Tests.Shared.projitems*{dda486dc-4e24-4c0d-a99e-af4643b47cfb}*SharedItemsImports = 5
 	EndGlobalSection
 EndGlobal
