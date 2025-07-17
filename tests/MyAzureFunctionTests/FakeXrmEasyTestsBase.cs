@@ -1,4 +1,4 @@
-using FakeXrmEasy.Abstractions;
+using FakeXrmEasy   .Abstractions;
 using FakeXrmEasy.Abstractions.Enums;
 using FakeXrmEasy.Middleware;
 using FakeXrmEasy.Middleware.Crud;
